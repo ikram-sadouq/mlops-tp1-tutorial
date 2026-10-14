@@ -1,0 +1,16 @@
+
+# Ignore Python environments and cache
+.conda/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# Ignore datasets and trained models
+data/
+models/
+*.pkl
+*.h5
+
+# Ignore local VS Code settings
+.vscode/
